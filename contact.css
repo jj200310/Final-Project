@@ -1,0 +1,43 @@
+.title{
+    text-align: center;
+    }
+    body{
+        background-image: url(https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    nav{
+        background-color:rgb(239, 243, 243);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 150px;
+        width: 1425px;
+        border-radius: 25px;
+    }
+    nav ul li{
+        display: inline-block;  
+        padding: 10px 20px;
+        
+     }
+     .container{
+        display: grid;
+        grid-gap: 10px;
+
+     }
+     .grid1{
+        display: grid;
+        background-color: white;
+        border-radius: 25px;
+        width: 350px;
+        padding-left: 10px;
+
+     }
+     .grid2{
+       display: grid; 
+       background-color: white;
+       border-radius: 25px;
+       width: 180px;
+       padding-left: 10px;
+     }
